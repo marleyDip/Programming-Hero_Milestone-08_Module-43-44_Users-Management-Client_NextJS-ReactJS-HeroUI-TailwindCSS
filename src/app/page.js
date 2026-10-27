@@ -74,12 +74,12 @@ export default function Home() {
           <Link href="/" className="group flex items-center gap-3">
             <span className="flex h-10 w-10 items-center justify-center rounded-xl border border-white/20 bg-white/8 text-xl shadow-lg shadow-violet-500/10 transition duration-300 group-hover:rotate-6 group-hover:border-violet-300/50">
               <span className="bg-linear-to-br from-violet-300 to-cyan-300 bg-clip-text font-bold text-transparent">
-                U
+                D
               </span>
             </span>
 
             <span className="text-xl font-bold tracking-tight">
-              Uni<span className="text-violet-300">People</span>
+              Deep<span className="text-violet-300">People</span>
             </span>
           </Link>
 
@@ -453,15 +453,16 @@ export default function Home() {
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-5 px-5 py-7 sm:px-8 md:flex-row lg:px-10">
           <Link href="/" className="flex items-center gap-2.5">
             <span className="flex h-8 w-8 items-center justify-center rounded-lg border border-white/15 bg-white/[0.07] font-bold text-violet-200">
-              U
+              D
             </span>
+
             <span className="font-semibold tracking-tight">
-              Uni<span className="text-violet-300">People</span>
+              Deep<span className="text-violet-300">People</span>
             </span>
           </Link>
 
           <p className="text-center text-xs text-slate-500">
-            © {new Date().getFullYear()} UniPeople. Built for better
+            © {new Date().getFullYear()} DeepPeople. Built for better
             connections.
           </p>
 
@@ -515,9 +516,9 @@ export default function Home() {
 //         <nav className="flex items-center justify-between rounded-2xl border border-white/20 bg-white/[0.08] px-5 py-4 shadow-2xl shadow-black/10 backdrop-blur-2xl">
 //           <a href="/" className="flex items-center gap-3 font-bold text-white">
 //             <span className="flex h-10 w-10 items-center justify-center rounded-xl border border-white/20 bg-gradient-to-br from-violet-400 to-indigo-500 shadow-lg shadow-violet-500/30">
-//               U
+//               D
 //             </span>
-//             UniPeople
+//             DeepPeople
 //           </a>
 
 //           <a

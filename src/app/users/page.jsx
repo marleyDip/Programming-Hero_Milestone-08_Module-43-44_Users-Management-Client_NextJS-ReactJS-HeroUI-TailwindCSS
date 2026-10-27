@@ -1,3 +1,4 @@
+import Footer from "@/components/footer";
 import Users from "@/components/users";
 import { Suspense } from "react";
 
@@ -47,11 +48,11 @@ export default function UsersPage() {
         <aside className="hidden w-64 shrink-0 flex-col bg-[#17152b] p-6 text-white lg:flex">
           <a href="/users" className="flex items-center gap-3">
             <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-linear-to-br from-violet-500 to-indigo-500 text-xl font-black shadow-lg shadow-violet-900/40">
-              U
+              D
             </div>
 
             <div>
-              <p className="text-lg font-bold tracking-tight">UniPeople</p>
+              <p className="text-lg font-bold tracking-tight">DeepPeople</p>
               <p className="text-xs text-slate-400">Community workspace</p>
             </div>
           </a>
@@ -94,7 +95,7 @@ export default function UsersPage() {
           </div>
 
           <p className="mt-6 text-xs text-slate-500">
-            UniPeople · Community edition
+            DeepPeople · Community edition
           </p>
         </aside>
 
@@ -165,10 +166,12 @@ export default function UsersPage() {
             </Suspense>
           </section>
 
-          <footer className="flex flex-col justify-between gap-2 py-7 text-xs text-slate-400 sm:flex-row">
+          <Footer />
+
+          {/* <footer className="flex flex-col justify-between gap-2 py-7 text-xs text-slate-400 sm:flex-row">
             <p>© {new Date().getFullYear()} UniPeople</p>
             <p>Built for better connections.</p>
-          </footer>
+          </footer> */}
         </section>
       </div>
     </main>

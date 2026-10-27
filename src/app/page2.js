@@ -38,7 +38,9 @@ export default function Home() {
     <main className="relative min-h-screen overflow-hidden bg-[#09090f] text-white">
       {/* Ambient background */}
       <div className="pointer-events-none absolute -left-40 top-40 h-96 w-96 rounded-full bg-violet-600/20 blur-[130px]" />
+
       <div className="pointer-events-none absolute -right-40 top-20 h-96 w-96 rounded-full bg-indigo-500/15 blur-[130px]" />
+
       <div className="pointer-events-none absolute bottom-0 left-1/3 h-80 w-80 rounded-full bg-fuchsia-500/10 blur-[120px]" />
 
       {/* Navbar */}
@@ -46,12 +48,12 @@ export default function Home() {
         <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-5 sm:px-8">
           <Link href="/" className="flex items-center gap-3">
             <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-linear-to-br from-violet-500 to-indigo-600 text-xl font-black shadow-lg shadow-violet-900/40 transition duration-300 hover:rotate-6 hover:scale-105">
-              U
+              D
             </div>
 
             <div>
               <span className="text-lg font-bold tracking-tight">
-                UniPeople
+                DeepPeople
               </span>
               <p className="text-[10px] tracking-[0.2em] text-slate-500">
                 COMMUNITY PLATFORM
@@ -382,11 +384,11 @@ export default function Home() {
             <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-linear-to-br from-violet-500 to-indigo-600 text-sm font-black">
               U
             </span>
-            <span className="text-sm font-bold">UniPeople</span>
+            <span className="text-sm font-bold">DeepPeople</span>
           </Link>
 
           <p className="text-xs text-slate-500">
-            © {new Date().getFullYear()} UniPeople. Built for community.
+            © {new Date().getFullYear()} DeepPeople. Built for community.
           </p>
 
           <Link
