@@ -1,5 +1,7 @@
 import Footer from "@/components/footer";
 import Users from "@/components/users";
+
+import Link from "next/link";
 import { Suspense } from "react";
 
 async function getUsers() {
@@ -46,7 +48,7 @@ export default function UsersPage() {
       <div className="mx-auto flex min-h-screen max-w-[1600px]">
         {/* Sidebar */}
         <aside className="hidden w-64 shrink-0 flex-col bg-[#17152b] p-6 text-white lg:flex">
-          <a href="/users" className="flex items-center gap-3">
+          <Link href="/" className="flex items-center gap-3">
             <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-linear-to-br from-violet-500 to-indigo-500 text-xl font-black shadow-lg shadow-violet-900/40">
               D
             </div>
@@ -55,7 +57,7 @@ export default function UsersPage() {
               <p className="text-lg font-bold tracking-tight">DeepPeople</p>
               <p className="text-xs text-slate-400">Community workspace</p>
             </div>
-          </a>
+          </Link>
 
           <p className="mb-4 mt-12 text-[10px] font-bold uppercase tracking-[0.22em] text-slate-500">
             Workspace
@@ -166,7 +168,11 @@ export default function UsersPage() {
             </Suspense>
           </section>
 
-          <Footer />
+          <Footer
+            brand="DeepPeople"
+            tagline="Built for better connections."
+            className="py-7 border-white/6 text-slate-400"
+          />
 
           {/* <footer className="flex flex-col justify-between gap-2 py-7 text-xs text-slate-400 sm:flex-row">
             <p>© {new Date().getFullYear()} UniPeople</p>
