@@ -114,7 +114,7 @@ export default function Home() {
             </Link>
 
             <Link
-              href="/users"
+              href="/users/add"
               className="group inline-flex items-center gap-2 rounded-xl border border-white/20 bg-white/10 px-5 py-2.5 text-sm font-semibold shadow-lg shadow-violet-500/10 backdrop-blur-xl transition duration-300 hover:-translate-y-0.5 hover:border-violet-300/50 hover:bg-white/16"
             >
               Get Started

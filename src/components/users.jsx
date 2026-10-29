@@ -27,7 +27,11 @@ function getInitials(name) {
 }
 
 export default function Users({ userPromise }) {
+  // It declare in variable in the parent, so need to call it.
   const users = use(userPromise);
+
+  // If it declare in function in the parent, so here need to function call.
+  // const users = use(userPromise());
 
   const [search, setSearch] = useState("");
   const [sortBy, setSortBy] = useState("name-asc");
